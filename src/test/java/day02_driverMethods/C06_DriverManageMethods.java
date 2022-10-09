@@ -10,6 +10,7 @@ public class C06_DriverManageMethods {
         WebDriver driver= new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
+
         Thread.sleep(2000);
         driver.manage().window().setSize(new Dimension(1000,700) );
         driver.manage().window().setPosition(new Point(100,100));
